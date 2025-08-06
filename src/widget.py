@@ -27,6 +27,6 @@ def get_date(date_str: str) -> str:
 
 
 # Примеры использования
-print(mask_account_card("Visa Platinum 7000792289606361"))  # Visa Platinum 7000 79** **** 6361
+print(mask_account_card("Visa Platinum 7000792289606361")) # Visa Platinum 7000 79** **** 6361
 print(mask_account_card("Счет 73654108430135874305"))  # Счет **4305
 print(get_date("2018-07-11T02:26:18.671407"))  # 11.07.2018
